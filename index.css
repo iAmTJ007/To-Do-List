@@ -13,7 +13,7 @@ body{
     padding-right: 1.5rem;
     
 }
-.addtask{
+.writetask{
     display: flex;
     justify-content: center;
 }
