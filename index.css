@@ -1,0 +1,19 @@
+body{
+    background-color: rgb(102, 102, 174);
+    display: grid;
+    height: 95vh;
+    place-items: center;
+    font-family: 'Quicksand', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+.box{
+    background-color: white;
+    padding-bottom: 2rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    
+}
+.addtask{
+    display: flex;
+    justify-content: center;
+}
