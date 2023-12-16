@@ -15,12 +15,7 @@ const addtask=()=>{
 };
 const completetask=(id)=>{
     const node=document.getElementById(id);
-    const text=node.innerHTML;
-    const newnode=document.createElement('s');
-    newnode.textContent=text;
-    node.innerHTML="";
-    node.appendChild(newnode);
-    
+    node.classList.toggle("checked");  // we use css for this
 }
 const deletetask=(id)=>{
     const nodeToDelete=document.getElementById(id);

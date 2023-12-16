@@ -6,6 +6,9 @@ body{
     font-family: 'Quicksand', sans-serif;
     font-family: 'Roboto', sans-serif;
 }
+.checked{
+    text-decoration: line-through;
+}
 img{
     width: 18%;
     height: auto;
