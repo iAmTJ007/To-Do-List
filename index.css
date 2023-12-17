@@ -10,8 +10,9 @@ body{
     text-decoration: line-through;
 }
 img{
-    width: 18%;
+    max-width: 20%;
     height: auto;
+    object-fit: contain;
 }
 .box{
     width: 20%;
