@@ -2,6 +2,9 @@ const area=document.getElementById("tasks");
 var i=0;
 const addtask=()=>{
     const textval=document.getElementById("textbox").value;
+    if(textval.length==0){
+        return;
+    }
     const newdiv=document.createElement('div');
     newdiv.className="newdiv";
     newdiv.id=i+"";

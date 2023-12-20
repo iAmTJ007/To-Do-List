@@ -23,15 +23,13 @@ img{
     padding-bottom: 2rem;
     padding-left: 2rem;
     padding-right: 2rem;
-
-    
 }
 .writetask{
     display: flex;
     justify-content: space-between;
     height: 2.5rem;
     border-radius: 2rem;
-    background-color: rgb(203, 193, 193);
+    background-color: rgb(239, 232, 232);
 }
 #textbox{
     width: 70%;
@@ -45,6 +43,9 @@ button{
     border-radius: 2rem;
     border: none;
     background-color: orange;
+}
+button:hover{
+   cursor: pointer; 
 }
 .newdiv{
     padding: 1rem;
